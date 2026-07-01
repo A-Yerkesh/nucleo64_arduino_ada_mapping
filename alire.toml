@@ -1,0 +1,10 @@
+name = "nucleo64_arduino_ada_mapping"
+description = "Enables to reference Nucleo-64 pins by their Arduino names."
+version = "0.1.0-dev"
+
+authors = ["Arman"]
+maintainers = ["Arman <a.yerkesh@gmail.com>"]
+maintainers-logins = ["A-Yerkesh"]
+licenses = "MIT OR Apache-2.0 WITH LLVM-exception"
+website = "https://github.com/A-Yerkesh/nucleo64_arduino_ada_mapping"
+tags = ["nucleo64", "arduino"]
