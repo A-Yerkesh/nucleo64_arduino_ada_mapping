@@ -17,7 +17,7 @@ Pins mapping is shared between all boards that are built on the same PCB (Printe
 
 ## Usage
 
-1. Go to [Ada Drivers Library](https://github.com/AdaCore/Ada_Drivers_Library/) . You need `STM32.Device` and `STM32.GPIO` packages with all their dependencies. I recommend to follow Ada Drivers Library's installation instructions
+1. Go to [Ada Drivers Library](https://github.com/AdaCore/Ada_Drivers_Library/) (ADL). You need `STM32.Device` and `STM32.GPIO` packages with all their dependencies. I recommend to follow ADL's installation instructions. **If your board is not supported by ADL - you can't use these mappings**
 2. Find which PCB layout your Nucleo board uses. User manual includes it and it is printed on the board itself
 3. Find the mapping file for your PCB in `src/` directory and download it to your project. If no file for your PCB exist yet, follow instructions below to create it. Please, consider opening a pull request afterwards
 
